@@ -14,7 +14,7 @@ body.login { background: url(bg.jpg); }
 h2 { font-size: 30px; line-height:38px; font-weight:normal; }
 .loginbox { background: #FBFCFD; padding: 10px; width: 490px; margin: 4% auto 0 auto; position: relative; }
 .loginboxinner {
-	background: #FBFCFD; padding: 5px; position: relative; border: 1px solid #FBFCFD;
+	background: gray; padding: 5px; position: relative; border: 1px solid #FBFCFD;
 	-moz-box-shadow: inset 0 1px 0 #FBFCFD; -webkit-box-shadow: inset 0 1px 0 #FBFCFD; box-shadow: inset 0 1px 0 #FBFCFD;
 }
 .loginheader { height: 20px; }
@@ -35,7 +35,7 @@ h2 { font-size: 30px; line-height:38px; font-weight:normal; }
 
 .radius { -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
 .radius1 { -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
-.title { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color:#8E989E; line-height:28px; font-weight:normal; text-align:center; font-size:16px; }
+.title { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color:black; line-height:28px; font-weight:normal; text-align:center; font-size:16px; }
 
 @media screen and (max-width: 430px) {
 
@@ -120,4 +120,4 @@ h2 { font-size: 30px; line-height:38px; font-weight:normal; }
 	text-align: left;
 	vertical-align: middle;
 }
-.fbbutton { border:1px solid #1D3871; width:94px; background-image:-webkit-linear-gradient(top, #637BAD, #4F67A4); font-size:14px; line-height:25px; font-weight:normal; color:#fff; }
+.fbbutton { border:1px solid #1D3871; width:94px; background-image:-webkit-linear-gradient(top, #637BAD, #4F67A4); font-size:14px; line-height:25px; font-weight:normal; color:#fec503; }
